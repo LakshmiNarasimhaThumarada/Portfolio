@@ -125,7 +125,7 @@ const Hero = () => {
           className="lg:col-span-5 relative"
         >
           <div className="relative z-10 rounded-3xl overflow-hidden border border-white/10 glow-cyan">
-             <img src="/Public/me.png" alt="Lakshmi Narasimha" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
+             <img src="/me.png" alt="Lakshmi Narasimha" className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700" />
           </div>
           {/* Decorative frame */}
           <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary rounded-tl-3xl" />
@@ -172,7 +172,7 @@ const Hero = () => {
             <a href="#projects" className="btn-primary flex items-center gap-2">
               View Projects <ChevronRight size={18} />
             </a>
-            <a href="/Public/Resume.pdf" target="_blank" className="btn-secondary flex items-center gap-2">
+            <a href="/Resume.pdf" target="_blank" className="btn-secondary flex items-center gap-2">
               <Download size={18} /> Resume
             </a>
           </motion.div>
